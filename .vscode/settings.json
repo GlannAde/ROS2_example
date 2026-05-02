@@ -1,0 +1,10 @@
+{
+    "idf.pythonInstallPath": "/usr/bin/python3",
+    "cmake.ignoreCMakeListsMissing": true,
+    "clangd.arguments": [
+        "--compile-commands-dir=build/",
+        "--background-index",
+        "--clang-tidy",
+        "--header-insertion=never"
+    ]
+}

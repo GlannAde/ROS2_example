@@ -1,0 +1,17 @@
+/usb_camera_node:   # 必须与 C++ 代码中的 Node 名称一致
+  ros__parameters:
+    # --- 核心修复：设置为空字符串以去掉标定文件警告 ---
+    camera_info_url: "" 
+
+    # --- 相机基础设置 ---
+    camera_index: 2
+    pixel_format: "MJPG"
+    encoding_str: "bgr8"
+    frame_width: 640
+    frame_height: 480
+    fps: 60.0
+
+    # --- 曝光与增益 ---
+    exposure_auto: True
+    exposure_time: 800
+    gain: 128

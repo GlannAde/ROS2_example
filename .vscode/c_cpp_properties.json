@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/humble/include/**", // <--- 核心：加入 ROS 2 头文件路径 (假设你用的是 Humble)
+                "/usr/include/**",
+                "/usr/local/include/**"
+            ],
+            "compilerPath": "/usr/bin/g++", // ROS 2 默认推荐使用 g++
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
